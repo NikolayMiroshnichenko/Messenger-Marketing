@@ -1,0 +1,372 @@
+@media (max-width: 1540px) {
+    .container {
+        width: 968px;
+    }
+    .main-wrapper {
+        height: 720px;
+    }
+    .logo {
+        width: 80px;
+        height: 60px;
+    }
+    .nav-list__item a {
+        font-size: 14px;
+    }
+    .header-contacts__numbers {
+        font-size: 18px;
+    }
+    .main-content__title {
+        font-size: 70px;
+    }
+    .main-social__title,
+    .main-content__text,
+    .main-content__title span {
+        font-size: 16px;
+    }
+    .main-btn__details,
+    .main-btn__participation {
+        font-size: 12px;
+    }
+    .module-wrapper__title {
+        font-size: 40px;
+    }
+    .module-wrapper__des {
+        font-size: 18px;
+    }
+    .module-wrapper__text {
+        font-size: 14px;
+    }
+    .module-link {
+        font-size: 20px;
+    }
+    .module-link-activ {
+        font-size: 24px;
+    }
+    
+    .module-link-second {
+        top: 50px;
+    }
+    .module-link-three {
+        top: 100px;
+    }
+    .module-link-four {
+        top: 150px;
+    }
+    .module-link-five {
+        top: 200px;
+    }
+    .module-link-six {
+        top: 250px;
+    }
+    .module-link-seven {
+        top: 300px;
+    }
+    .box {
+        min-height: 600px;
+    }
+    .box-list__item,
+    .box-item-link__title,
+    .box-item-link__number {
+        font-size: 16px;
+    }
+    .box-item-link-icon {
+        width: 12px;
+        height: 12px;
+    }
+    .rate-title {
+        font-size: 40px;
+    }
+    .rate-list {
+        justify-content: space-between;
+    }
+    .rate-list__item {
+        width: 32%;
+    }
+    .rate-list__title {
+        font-size: 30px;
+    }
+    .сard-list__item {
+        font-size: 14px;
+    }
+    .svg {
+        width: 20px;
+        height: 20px;
+    }
+    .rate-list__price {
+        font-size: 30px;
+    }
+    .rate-list__btn {
+        font-size: 14px;
+    }
+    .rate-list__last-text {
+        font-size: 12px;
+    }
+    .lecturer-img__name {
+        font-size: 30px;
+    }
+    .lecturer-content__who {
+        font-size: 40px;
+    }
+    .lecturer-content__name {
+        font-size: 20px;
+    }
+    .footer-list__item a,
+    .lecturer-list__item {
+        font-size: 14px;
+    }
+    
+   
+}
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .main-wrapper {
+        height: 650px;
+        margin-bottom: 60px;
+    }
+    .logo {
+        width: 70px;
+        height: 50px;
+    }
+    .nav-list__item a {
+        font-size: 12px;
+    }
+    .header-contacts__numbers {
+        font-size: 18px;
+    }
+    .main-content__title {
+        font-size: 60px;
+    }
+
+
+    .wrapper {
+        background-position: 50% 35%;
+
+    }
+    .module-wrapper__title {
+        font-size: 30px;
+    }
+    .module-wrapper__des {
+        font-size: 16px;
+    }
+    .module-wrapper__text {
+        font-size: 12px;
+    }
+    .module-link {
+        font-size: 18px;
+    }
+    .module-link-activ {
+        font-size: 22px;
+    }
+    
+    .box {
+        min-height: 560px;
+    }
+    .box-list__item,
+    .box-item-link__title,
+    .box-item-link__number {
+        font-size: 14px;
+    }
+    .box-item-link-icon {
+        width: 12px;
+        height: 12px;
+    }
+    .rate-title {
+        font-size: 30px;
+    }
+    .rate-list {
+        justify-content: space-between;
+    }
+    .rate-list__item {
+        width: 32%;
+        padding: 0 20px;
+
+    }
+    .rate-list__title {
+        font-size: 24px;
+    }
+    .сard-list__item {
+        font-size: 14px;
+    }
+    .footer-list__item a,
+    .lecturer-list__item {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .footer {
+        width: 500px;
+    }
+} 
+@media (max-width: 740px) {
+    .container {
+        width: 90%;
+    }
+    .main-wrapper {
+        height: auto;
+    }
+    .logo {
+        width: 90px;
+        height: 72px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .main-content__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-content__title span {
+        top: -20px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .main-social__title,
+    .main-content__text {
+        font-size: 20px;
+        text-align: center;
+    }
+    .main-social__title {
+        margin-bottom: 20px;
+    }
+    .social-list {
+        display: flex;
+        justify-content: center;
+    }
+    .main-img {
+        width: 100%;
+        position: static;
+        transform: translate(0);
+        margin-bottom: 40px;
+    }
+    .main-btn {
+        flex-direction: column;
+    }
+    .main-btn__details,
+    .main-btn__participation {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .wrapper {
+        background-image: none;
+    }
+    .module-wrapper {
+        padding-bottom: 80px;
+    }
+    .module-item {
+        margin-bottom: 20px;
+    }
+    .module-link,
+    .module-link-second,
+    .module-link-three,
+    .module-link-four,
+    .module-link-five,
+    .module-link-six,
+    .module-link-seven {
+        top: 0;
+        position: static;
+        padding: 40px;
+        font-weight: 700;
+        font-size: 28px;
+        color: #000;
+    }
+    .module-item {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .module-item {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .box {
+        width: 100%;
+        min-height: auto;
+        box-shadow: none;
+        padding: 10px;
+    }
+    .box-item-link {
+        padding: 20px;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .box-content {
+        padding: 20px 40px;
+    }
+    .box-item-link__title,
+    .box-item-link__number {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .rate {
+        margin-bottom: 80px;
+    }
+    .rate-title {
+        margin: 0;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .rate-list {
+        flex-direction: column;
+    }
+    .rate-list__item {
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+    .rate-list__title {
+        font-size: 40px;
+    }
+    .сard-list__item {
+        font-size: 16px;
+    }
+    .svg {
+        width: 26px;
+        height: 26px;
+    }
+    .lecturer {
+        flex-direction: column-reverse;
+    }
+    .lecturer-content,
+    .lecturer-img {
+        width: 100%;
+    }
+    .lecturer-content__who {
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+    }
+    .lecturer-content__name {
+        text-align: center;
+        font-size: 25px;
+    }
+    .lecturer-list__item {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer-list {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .footer-list__item a {
+        margin-bottom: 20px;
+    }
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-text {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
+}

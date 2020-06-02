@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+
     <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -35,11 +37,17 @@
             <form action="" class="form">
                 <h2 class="form-title">Введите свои данные ниже</h2>
                 <div class="input-list">
-                    <input type="text" class="input" placeholder="Имя...">
-                    <input type="text" class="input" placeholder="E-mail...">
-                    <input type="text" class="input" placeholder="Номер телефона...">
+                    <div class="input-block">
+                        <input type="text" class="input" placeholder="Имя...">
+                    </div>
+                    <div class="input-block"><input type="text" class="input" placeholder="E-mail..."></div>
+            
+                    <div class="input-block">
+                        <input type="tel" class="input" id="phone" placeholder="Номер телефона...">
+                    </div>
+                    
                 </div>
-                <button class="form-btn" type="submit">Принять участие</button>
+                <button class="form-btn btn" type="submit">Принять участие</button>
             </form>
         </div>
         
@@ -90,5 +98,9 @@
             разрешено
             только с согласия правообладателей. По всем вопросам обращайтесь: <a href="">info@protargeting.team</a></p>
     </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/intlTelInput.js"></script>
+
+    <script src="js/input.js"></script>
 </body>
 </html>

@@ -244,10 +244,11 @@
     }
     .main-btn {
         flex-direction: column;
+        padding-bottom: 40px;
     }
     .main-btn__details,
     .main-btn__participation {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         margin-bottom: 20px;
     }

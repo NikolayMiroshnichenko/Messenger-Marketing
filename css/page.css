@@ -195,15 +195,20 @@ body {
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.input {
-    display: block;
+.input-block {
     width: 32%;
+}
+.input {
+    position: relative;
+    display: block;
+    width: 100%;
     padding: 18px;
     background: #FBFBFB;
     border-radius: 10px;
     outline: none;
     border: none;
     color: #B9B9B9;
+    box-sizing: border-box;
 }
 .form-btn {
     display: block;
@@ -217,6 +222,7 @@ body {
     outline: none;
     color: #ffffff;
     margin: 0 auto;
+    cursor: pointer;
 }
 .footer {
     width: 740px;
@@ -268,18 +274,28 @@ body {
     transform: scale(1.08);
 }
 .social-link-master {
+    width: 25px;
+    height: 25px;
     background-image: url(../img/footer/master-card.svg);
 }
 .social-link-visa {
+    width: 25px;
+    height: 25px;
     background-image: url(../img/footer/visa.svg);
 }
 .social-link-fb {
+    width: 25px;
+    height: 25px;
     background-image: url(../img/fb.svg);
 }
 .social-link-instargram {
+    width: 30px;
+    height: 30px;
     background-image: url(../img/instagram.svg);
 }
 .social-link-youtube {
+    width: 28px;
+    height: 28px;
     background-image: url(../img/youtube.svg);
 }
 .footer-text {
@@ -293,6 +309,12 @@ body {
     text-decoration: none;
     background-color: #FFF61E;
     color: #000000;
+}
+.btn {
+    transition: all 0.3s;
+}
+.btn:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 1540px) {
@@ -370,7 +392,7 @@ body {
         font-size: 14px;
         z-index: 999;
     }
-    .input {
+    .input-block {
         position: relative;
         width: 90%;
         box-sizing: border-box;

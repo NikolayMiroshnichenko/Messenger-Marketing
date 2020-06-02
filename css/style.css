@@ -143,6 +143,10 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+.social-link:hover {
+    transform: scale(1.08);
 }
 .social-link-telegram {
     transform: translateY(-12%);
@@ -621,6 +625,15 @@ body {
 }
 .social-link-visa {
     background-image: url(../img/footer/visa.svg);
+}
+.social-link-fb {
+    background-image: url(../img/fb.svg);
+}
+.social-link-instargram {
+    background-image: url(../img/instagram.svg);
+}
+.social-link-youtube {
+    background-image: url(../img/youtube.svg);
 }
 .footer-text {
     text-align: center;

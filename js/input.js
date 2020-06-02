@@ -1,4 +1,6 @@
 const input =  document.querySelector("#phone"); 
+const form = document.querySelector(".input-list");
+
 
 window.intlTelInput (input, {
     utilsScript: 'js/utils.js',
@@ -25,9 +27,12 @@ input.addEventListener('focus', codeCauntry)
 
 function codeCauntry(e) {
     const countryData = document.querySelector('.iti__selected-dial-code').textContent;
-
+    
     if(input.value !== "") return;
     input.value = countryData;
 }
+form.addEventListener('click', (e) => {
+    e.target.style.color = "#000";
+})
 
 
